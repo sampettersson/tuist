@@ -10,6 +10,10 @@ Please, check out guidelines: https://keepachangelog.com/en/1.0.0/
 - Add documentation on how to use & create plugins by [@luispadron](https://github.com/luispadron)
 - Warn when targets with duplicate bundle identifiers exist per platform [#2444](https://github.com/tuist/tuist/pull/2444) by [@natanrolnik](https://github.com/natanrolnik).
 
+### Fixed
+
+- Fix code coverage not gathered for project with enabled code coverage when running `tuist test` [#2501](https://github.com/tuist/tuist/pull/2501) by [@adellibovi](https://github.com/adellibovi)
+
 ### Changed
 
 - Update post-generation interactors to use the graph traverser [#2451](https://github.com/tuist/tuist/pull/2451) by [@pepibumur](https://github.com/pepibumur).
